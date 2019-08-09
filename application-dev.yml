@@ -2,19 +2,15 @@
 dev: 
   server:
     port: 7001
-dev:    
   spring:
     application:
-      name: consumer
-dev:      
+      name: consumer 
   eureka:
     client:
       service-url:
-        defaultZone: http://server1:8001/eureka/
-dev:        
+        defaultZone: http://server1:8001/eureka/      
   feign:
     hystrix:
       enabled: true
-dev:      
   applicaton:
     profiles: dev
